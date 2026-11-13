@@ -1,0 +1,31 @@
+﻿@page
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite Video</title>
+    <!--Link to CSS stylesheet-->
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="title">Welcome to My Music Page</h1>
+        <p>Check out this embedded youtube video below</p>
+
+        <!--Embedded youtube Music Video-->
+        <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KnZme8tTaUE" title="[4K] Michael Jackson - Remember The Time (Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+            <!--Interactive element for JS animation-->
+            <button id="animateBtn">Click to Animate Box</button>
+            <div id="box" class="box"></div>
+        </div>
+
+        <!--Link to JavaScript file-->
+        <script src="~/js/site.js"></script>
+    </body>
+</html>
